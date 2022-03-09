@@ -5,6 +5,10 @@ header {
     grid-area: header;
 }
 
+header h1 {
+    text-align: center;
+}
+
 header a {
     display: none;
 }
@@ -12,11 +16,18 @@ header a {
 nav {
     background-color: yellow;
     grid-area: nav;
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li {
+    list-style: none;
     display: inline;
 }
 
 main {
-    background-color: gold;
+    background-color: powderblue;
     color: white;
     grid-area: main;
 }
@@ -59,6 +70,10 @@ body {
         height: 100vh;
     }
 
+nav li {
+    display: block;
+}
+
     #clicked .on {
         display: block;
     }
@@ -83,7 +98,7 @@ body {
     .shownav {
         height: 0.8em;
         width: 1.25em;
-        display: block;
+        display: inline-block;
         border-top: 0.2em solid white;
         border-bottom: 0.2em solid white;
         border-radius: 0.1em;
@@ -98,7 +113,7 @@ body {
     }
 
     main {
-        background-color: gold;
+        background-color: gray;
         color: white;
         grid-area: main;
     }
