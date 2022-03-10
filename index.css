@@ -13,8 +13,16 @@ header a {
     display: none;
 }
 
+
+#introduction h2 {
+    text-align: center;
+}
+
+#introduction p {
+    text-align: center;
+}
 nav {
-    background-color: yellow;
+    background-color: orange;
     grid-area: nav;
     display: inline-block;
     text-align: center;
@@ -30,6 +38,14 @@ main {
     background-color: powderblue;
     color: white;
     grid-area: main;
+}
+
+
+main img {
+    width: 10em;
+    border-radius: 3em;
+    display: block; margin-right: 90%; margin-left: 10%;
+    float: left; border-width: 0.5em; border-style: groove; border-color: #000000;
 }
 
 footer {
@@ -61,7 +77,7 @@ body {
     }
 
     nav {
-        background-color: yellow;
+        background-color: orange;
         display: none;
         position: fixed;
         top: 0;

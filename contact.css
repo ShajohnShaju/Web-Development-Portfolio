@@ -14,7 +14,7 @@ header a {
 }
 
 nav {
-    background-color: yellow;
+    background-color: orange;
     grid-area: nav;
     display: inline-block;
     text-align: center;
@@ -61,7 +61,7 @@ body {
     }
 
     nav {
-        background-color: yellow;
+        background-color: orange;
         display: none;
         position: fixed;
         top: 0;
